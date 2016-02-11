@@ -3065,6 +3065,9 @@ body {
   background-color: #444444;
   height: 100%;
 }
+.main-title {
+  color: #E3E3E3;
+}
 .container {
   background-color: #444444;
   height: 100%;
@@ -3167,7 +3170,6 @@ body {
   float: left;
   margin: 5px;
   background-color: #eeeeee;
-  box-shadow: inset 0 0 1px #FFFFCC;
   cursor: pointer;
   position: relative;
   overflow: hidden;
@@ -3213,7 +3215,6 @@ body {
   float: left;
   margin: 5px;
   background-color: #eeeeee;
-  box-shadow: inset 0 0 1px #FFFFCC;
   cursor: pointer;
   position: relative;
   overflow: hidden;
@@ -3332,7 +3333,6 @@ body {
   float: left;
   margin: 5px;
   background-color: #eeeeee;
-  box-shadow: inset 0 0 1px #FFFFCC;
   cursor: pointer;
   position: relative;
   overflow: hidden;
@@ -3452,7 +3452,6 @@ body {
   float: left;
   margin: 5px;
   background-color: #eeeeee;
-  box-shadow: inset 0 0 1px #FFFFCC;
   cursor: pointer;
   position: relative;
   overflow: hidden;
@@ -3573,7 +3572,6 @@ body {
   float: left;
   margin: 5px;
   background-color: #eeeeee;
-  box-shadow: inset 0 0 1px #FFFFCC;
   cursor: pointer;
   position: relative;
   overflow: hidden;
@@ -3694,7 +3692,6 @@ body {
   float: left;
   margin: 5px;
   background-color: #eeeeee;
-  box-shadow: inset 0 0 1px #FFFFCC;
   cursor: pointer;
   position: relative;
   overflow: hidden;
@@ -3815,7 +3812,6 @@ body {
   float: left;
   margin: 5px;
   background-color: #eeeeee;
-  box-shadow: inset 0 0 1px #FFFFCC;
   cursor: pointer;
   position: relative;
   overflow: hidden;
