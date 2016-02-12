@@ -3103,6 +3103,7 @@ body {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+  width: 100%;
 }
 .titles > h4 {
   margin: 0;
@@ -3119,6 +3120,10 @@ body {
 }
 .container-content:after {
   clear: both;
+}
+#arcjs > svg {
+  padding: 0;
+  margin: 0 auto;
 }
 .arc {
   fill: blue;
