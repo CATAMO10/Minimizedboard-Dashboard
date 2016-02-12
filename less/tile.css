@@ -3120,6 +3120,9 @@ body {
 .container-content:after {
   clear: both;
 }
+.arc {
+  fill: blue;
+}
 @font-face {
   font-family: 'metro';
   src: url('../fonts/metro.eot');
