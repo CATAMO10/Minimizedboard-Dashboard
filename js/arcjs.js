@@ -1,4 +1,4 @@
-var svg = d3.select("body")
+var svg = d3.select("#arcjs")
     .append("svg")
     .attr("width", 200)
     .attr("height", 200)
