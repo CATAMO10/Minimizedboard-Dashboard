@@ -1,3 +1,6 @@
+
+
+
 var svg = d3.select("#arcjs")
     .append("svg")
     .attr("width", 400)
@@ -23,4 +26,17 @@ svg.append("path")
 svg.append("path")
     .attr("class", "arc2")
     .attr("d", arc2)
-    .attr("fill","red");
+    .attr("fill","#D2D2D2");
+
+// window.onload = function(){
+//     var func_width = document.getElementById('outer-funcs');
+//     var width = func_width.offsetWidth;
+//     console.log(width);
+//     var funcs = document.getElementById('funcs-buttons');
+//     var margin = (width-930)/2;
+//     console.log = (margin)
+//     $('#funcs-buttons').css('margin-left',margin);
+// }
+
+
+    

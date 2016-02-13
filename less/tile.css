@@ -3062,17 +3062,36 @@
 }
 html,
 body {
-  background-color: #DEDEDE;
+  background-color: transparent;
   height: 100%;
+}
+#outer-funcs {
+  width: 100%;
+}
+#outer-funcs:before,
+#outer-funcs:after {
+  display: table;
+  content: "";
+}
+#outer-funcs:after {
+  clear: both;
+}
+.funcs:before,
+.funcs:after {
+  display: table;
+  content: "";
+}
+.funcs:after {
+  clear: both;
 }
 .main-title {
   color: #323232;
   font-family: 'Segoe UI Light_', 'Open Sans Light', Verdana, Arial, Helvetica, sans-serif;
 }
 .container {
-  background-color: #DEDEDE;
-  height: 100%;
-  width: 90%;
+  background-color: transparent;
+  height: 70%;
+  width: 70%;
   margin: 0 auto;
   padding: 0;
 }
@@ -3124,9 +3143,6 @@ body {
 #arcjs > svg {
   padding: 0;
   margin: 0 auto;
-}
-.arc {
-  fill: blue;
 }
 @font-face {
   font-family: 'metro';
