@@ -3090,8 +3090,8 @@ body {
 }
 .container {
   background-color: transparent;
-  height: 70%;
-  width: 70%;
+  height: 100%;
+  width: 85%;
   margin: 0 auto;
   padding: 0;
 }
@@ -3106,14 +3106,7 @@ body {
 .tile-content {
   height: 100%;
   text-align: center;
-}
-.tile-content:before,
-.tile-content:after {
-  display: table;
-  content: "";
-}
-.tile-content:after {
-  clear: both;
+  position: absolute;
 }
 .titles {
   color: #fff;
@@ -3143,6 +3136,9 @@ body {
 #arcjs > svg {
   padding: 0;
   margin: 0 auto;
+}
+.gridster > ul > li {
+  display: list-item;
 }
 @font-face {
   font-family: 'metro';
@@ -5692,7 +5688,7 @@ body {
   width: 310px;
 }
 .tile-large-x {
-  width: 310px;
+  width: 248px;
 }
 .tile-big-x {
   width: 470px;

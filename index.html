@@ -4,16 +4,15 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<link rel="stylesheet" type="text/css" href="less/tile.css">
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" charset="utf-8"></script>
   <!-- d3js -->
   <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+  <script src="js/jquery.gridster.min.js" charset="utf-8"></script>
   <!-- d3js -->
   <script type="text/javascript" src="js/arcjs.js"></script>
 </head>
 <body>
 <div class="container">
-  <div class="main-title">
-    <h1>Sensor DashBoard</h1>
-  </div>
   <div id="outer-funcs">
     <div class="funcs" id="funcs-buttons">
       	<div class="tile-medium tile-large-x bg-yellow">
@@ -43,15 +42,45 @@
       </div>
     </div>
 
-    <div class="tile-big bg-lighterBlue">
-      <div class="tile-content"> 
-          <div class="arcjs" id="arcjs"></div>     
-      </div>
-    </div>
+<div class="gridster">
+    <ul>
+        <li data-row="1" data-col="1" data-sizex="4" data-sizey="2" class="tile-content bg-orange">
+          <div class="titles">
+            <h4>Welcome to your sensor board</h4>
+          </div>
+        </li>
+        <li data-row="1" data-col="2" data-sizex="1" data-sizey="1" class="tile-content bg-orange"></li>
+        <li data-row="1" data-col="3" data-sizex="1" data-sizey="1" class="tile-content bg-orange"></li>
+
+        <!-- <li data-row="1" data-col="2" data-sizex="2" data-sizey="1" class="bg-orange"></li>
+        <li data-row="2" data-col="2" data-sizex="2" data-sizey="2" class="bg-orange"></li>
+
+        <li data-row="1" data-col="4" data-sizex="1" data-sizey="1" class="bg-orange"></li>
+        <li data-row="2" data-col="4" data-sizex="2" data-sizey="1" class="bg-orange"></li>
+        <li data-row="3" data-col="4" data-sizex="1" data-sizey="1" class="bg-orange"></li>
+
+        <li data-row="1" data-col="5" data-sizex="1" data-sizey="1" class="bg-orange"></li>
+        <li data-row="3" data-col="5" data-sizex="1" data-sizey="1"></li>
+
+        <li data-row="1" data-col="6" data-sizex="1" data-sizey="1"></li>
+        <li data-row="2" data-col="6" data-sizex="1" data-sizey="2"></li> -->
+    </ul>
+</div>
 </div>
 <script type="text/javascript" src="js/arcjs.js"></script>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>	
+
+<script>
+  
+$(function(){ //DOM Ready
+
+    $(".gridster ul").gridster({
+        widget_margins: [10, 10],
+        widget_base_dimensions: [140, 140]
+    });
+
+});
+</script>
 
 </body>
 </html>
